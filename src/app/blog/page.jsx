@@ -15,6 +15,11 @@ const getData = async () => {
   return res.json();
 };
 
+export const metadata = {
+  title: "Posts Page",
+  description: "Posts description",
+};
+
 const BlogPage = async () => {
   // FETCH DATA WITH AN API
   // const posts = await getData();
