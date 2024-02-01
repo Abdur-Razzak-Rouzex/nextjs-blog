@@ -6,7 +6,6 @@ import { auth } from "@/lib/auth";
 
 const Navbar = async () => {
   const session = await auth();
-  console.log("the session: ", session);
 
   return (
     <div className={styles.container}>
